@@ -9,11 +9,11 @@ This project serves as a practical portfolio showcasing my ability to design, de
 ## Current Services Summary
 
 | Service | Description |
-|------|------------|
-| Proxmox VE | Bare-metal hypervisor hosting all virtual machines |
-| OPNsense | Firewall and gateway providing network security |
-| FileSrv | Centralized file server accessible via Windows File Explorer |
-| Jellyfin | Self-hosted media server running in a dedicated VM |
+|--------|------------|
+| Proxmox VE | Bare-metal hypervisor hosting and managing all virtual machines |
+| OPNsense | Firewall and gateway providing network segmentation and security |
+| FileSrv | Centralized file server accessible via Windows File Explorer with authentication |
+| Jellyfin | Self-hosted media server running in a dedicated virtual machine |
 | Tailscale VPN | VPN enabling secure remote access to the home lab from anywhere in the world via mobile and laptop devices, without exposing services publicly |
 
 ## Lab Environment
@@ -22,37 +22,38 @@ This project serves as a practical portfolio showcasing my ability to design, de
 - Lenovo ThinkCentre
 
 ### Virtualization Platform
-- Proxmox VE
+- **Proxmox VE**
   - Hosts multiple Linux virtual machines
   - Manages compute, storage, and networking resources
 
 ## Virtual Machines & Services
 
 ### Linux Servers
-- Ubuntu Server
-  - CLI-based administration
+- **Ubuntu Server**
+  - CLI based administration
   - User and password management
   - SSH remote access
-- Ubuntu Desktop
-  - GUI-based management where appropriate
-
+- **Ubuntu Desktop**
+  - GUI based management where appropriate
+ 
 ### File Server (FileSrv)
 - Dedicated file server VM used to store:
   - School work
   - Personal files
   - Backups and archived data
-- Files can be uploaded directly from my windows personal computer using file explorer
-- User based authentication enforced
+- Files can be uploaded directly from a **Windows personal computer using File Explorer**
+- User-based authentication enforced
 - No public or anonymous access
 
 ### Media Server (Jellyfin)
 - Jellyfin deployed in a dedicated VM
-- Managed via web based GUI
-- Media accessed through internal network
-- Service isolated from other workloads
+- Managed via a web-based GUI
+- Media accessed through the internal network
+- Service isolated from other workloads for security and stability
 
-### Remote Access & Networking
-- Secure VPN based remote access using Tailscale (WireGuard)
+## Remote Access & Networking
+- Secure VPN-based remote access using **Tailscale (WireGuard)**
+- Full access to the home lab from anywhere in the world using mobile and laptop devices
 - No direct exposure of Proxmox or internal services to the internet
 - Experience with:
   - IP addressing
@@ -60,15 +61,15 @@ This project serves as a practical portfolio showcasing my ability to design, de
   - LAN vs VPN access validation
 
 ## Security Considerations
-- Private internal services
+- Services are kept private within the internal network
 - Authentication enforced on shared resources
-- Least privilege mindset
-- Secure remote management practices
+- Least-privilege access mindset
+- Secure remote management through encrypted VPN connections
 
 ## Skills Demonstrated
 - Proxmox virtualization
 - Linux system administration
 - Network file sharing and permissions
-- Secure VPN based remote access
-- Deployment of self hosted services
+- Secure VPN-based remote access
+- Deployment of self-hosted services
 - Practical troubleshooting and infrastructure design
