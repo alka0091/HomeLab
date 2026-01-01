@@ -17,3 +17,10 @@ This screenshot shows secure remote access to the home lab using Tailscale VPN
 This setup enables safe remote management of the lab from anywhere in the world while maintaining a strong security posture.
 
 <img width="1160" height="560" alt="Screenshot 2026-01-01 162740" src="https://github.com/user-attachments/assets/a494f0c3-f357-44c1-8ac9-9cce995f208f" />
+
+
+## 4. File Server Access from Windows
+This screenshot shows authenticated access to the FileSrv virtual machine from a windows client using File Explorer.
+
+<img width="1017" height="368" alt="image" src="https://github.com/user-attachments/assets/c5c0f17f-6116-421d-b257-ee1ac8745026" />
+
