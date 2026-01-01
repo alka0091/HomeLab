@@ -14,7 +14,7 @@ This project serves as a practical portfolio showcasing my ability to design, de
 | OPNsense | Firewall and gateway providing network security |
 | FileSrv | Centralized file server accessible via Windows File Explorer |
 | Jellyfin | Self-hosted media server running in a dedicated VM |
-| Tailscale VPN | Secure remote access using WireGuard without public exposure |
+| Tailscale VPN | VPN enabling secure remote access to the home lab from anywhere in the world via mobile and laptop devices, without exposing services publicly |
 
 ## Lab Environment
 
