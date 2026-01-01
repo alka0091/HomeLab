@@ -10,4 +10,5 @@ This screenshot shows the Proxmox VE datacenter tree view, illustrating how the 
 ## 2. Proxmox Host Overview (Resources)
 This screenshot displays the Proxmox host summary, showing CPU, memory, and storage usage for the virtualization environment.
 
-<img width="1914" height="802" alt="image" src="https://github.com/user-attachments/assets/069860f4-2b62-484f-8669-b68918426f9f" />
+<img width="1915" height="800" alt="Screenshot 2026-01-01 162024" src="https://github.com/user-attachments/assets/e4123eb4-e973-4a4e-b69f-3694bdcb9e4e" />
+
