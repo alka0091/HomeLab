@@ -34,25 +34,25 @@ This project serves as a practical portfolio showcasing my ability to design, de
   - User and password management
   - SSH remote access
 - **Ubuntu Desktop**
-  - GUI based management where appropriate
+  - GUI based management
  
 ### File Server (FileSrv)
 - Dedicated file server VM used to store:
   - School work
   - Personal files
   - Backups and archived data
-- Files can be uploaded directly from a **Windows personal computer using File Explorer**
-- User-based authentication enforced
+- Files can be uploaded directly from a windows personal computer using file explorer
+- User based authentication enforced
 - No public or anonymous access
 
 ### Media Server (Jellyfin)
 - Jellyfin deployed in a dedicated VM
-- Managed via a web-based GUI
+- Managed via a web based GUI
 - Media accessed through the internal network
 - Service isolated from other workloads for security and stability
 
 ## Remote Access & Networking
-- Secure VPN-based remote access using **Tailscale (WireGuard)**
+- Secure VPN based remote access using Tailscale
 - Full access to the home lab from anywhere in the world using mobile and laptop devices
 - No direct exposure of Proxmox or internal services to the internet
 - Experience with:
@@ -63,7 +63,7 @@ This project serves as a practical portfolio showcasing my ability to design, de
 ## Security Considerations
 - Services are kept private within the internal network
 - Authentication enforced on shared resources
-- Least-privilege access mindset
+- Least privilege access mindset
 - Secure remote management through encrypted VPN connections
 
 ## Skills Demonstrated
